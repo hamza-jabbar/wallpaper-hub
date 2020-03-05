@@ -1,0 +1,14 @@
+Admin_Panel/.firebase
+Admin_Panel/.vscode
+Admin_Panel/.firebaserc
+*.iml
+.gradle
+WallpaperHub/local.properties
+WallpaperHub/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.DS_Store
+/build
+/captures
+/.externalNativeBuild
+

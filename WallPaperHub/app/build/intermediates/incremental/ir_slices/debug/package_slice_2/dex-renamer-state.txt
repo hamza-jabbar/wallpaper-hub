@@ -1,0 +1,4 @@
+#Sat Sep 29 09:59:26 BST 2018
+base.0=/Volumes/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/transforms/dexMerger/debug/2
+path.0=classes.dex
+renamed.0=classes.dex

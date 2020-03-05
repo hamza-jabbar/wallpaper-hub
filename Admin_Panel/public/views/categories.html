@@ -1,0 +1,241 @@
+<h2 class="mt-4">Categories</h2>
+<hr>
+<div class="row">
+    <!-- Form to add a new category -->
+    <div class="col-lg-5">
+        <h4>Add New</h4>
+        <form id="category-form">
+            <!-- Category Name -->
+            <div class="form-group">
+                <label for="category-name">Enter Name</label>
+                <input type="text" class="form-control" id="category-name">
+                <div class="invalid-feedback">
+                    <!-- Displayed only is there is a validation error -->
+                    Please enter a category name
+                </div>
+
+            </div>
+
+            <!-- Category Description -->
+            <div class="form-group">
+                <label for="category-name">Enter Description</label>
+                <!-- <input type="text" class="form-control" id="category-desc"> -->
+                <textarea name="description" class="form-control" id="category-desc" cols="30" rows="4"></textarea>
+                <div class="invalid-feedback">
+                    <!-- Displayed only if there is a validation error -->
+                    Please enter category description
+                </div>
+            </div>
+
+            <!-- File Input to upload the category -->
+            <div class="form-group">
+                <label for="category-thumbnail">Thumbnail</label>
+                <input type="file" class="form-control" id="category-thumbnail">
+                <div class="invalid-feedback">
+                    <!-- Displayed only if there is a validation error -->
+                    Please choose a valid image thumbnail
+                </div>
+            </div>
+
+            <!-- Selected Image Preview -->
+            <div class="form-group">
+                <img src="#" alt="Image" id="selected-thumbnail" width="250" height="150">
+            </div>
+
+            <!-- Progress bar -> when uploading thumbnail -->
+            <div class="form-group">
+                <div class="progress">
+                    <div class="progress-bar" id="upload-progress" style="width: 0%;">0%</div>
+                </div>
+            </div>
+            
+            <!-- Button to save the category(ies) -->
+            <div class="form-group">
+                <button type="button" id="save-category" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <!-- Display existing categories -->
+    <div class="col-lg-7">
+        <h4 class="mb-4">Saved Categories</h4>
+
+        <!-- Table displaying categories stored in DB -->
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Thumbnail</th>
+                </tr>
+            </thead>
+            <tbody id="categories">
+
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script>
+    var validImageTypes = ["image/gif", "image/jpg", "image/jpeg", "image/png"];
+
+    // When the page is loaded, hide the preview image field
+    $("#selected-thumbnail").hide();
+
+    function previewThumbnail(thumbnail) {
+        // Check if thumbnail has a file and is available
+        if(thumbnail.files && thumbnail.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                //  To preview the image -> set th src attribute to the selected thumbnail image
+                $('#selected-thumbnail').attr('src', e.target.result);
+                $('#selected-thumbnail').fadeIn();
+            }
+
+            // Read data as a URL
+            reader.readAsDataURL(thumbnail.files[0]);
+        }
+    }
+    //  Select a new file
+    $("#category-thumbnail").change(function() {
+        //  Preview the new selected file
+        previewThumbnail(this);
+    });
+
+    $("#save-category").click(function() {
+        // hide the error messages when populated
+        $("#category-name").removeClass("is-invalid");
+        $("#category-desc").removeClass("is-invalid");
+        $("#category-thumbnail").removeClass("is-invalid");
+
+        var catname = $("#category-name").val();
+        var desc = $("#category-desc").val();
+        var thumbnail = $("#category-thumbnail").prop("files")[0];
+
+        // Validate inputs
+        if(!catname) {
+            $("#category-name").addClass("is-invalid");
+            return;            
+        }
+        
+        if(!desc) {
+            $("#category-desc").addClass("is-invalid");
+        }
+        // Check is the file is an image type [jpg, jpeg, png, tiff, gif]
+        if(thumbnail == null) {
+            $("#category-thumbnail").addClass("is-invalid");
+            return;
+        }
+        
+        // Check file type validation
+        if($.inArray(thumbnail["type"], validImageTypes) < 0) {
+            $("#category-thumbnail").addClass("is-invalid");
+            return;
+        }
+
+        // Upload image and save category
+
+        //  Category reference
+        var database = firebase.database().ref("categories/" + catname);
+
+        database.once("value").then(function(snapshot) {
+            if(snapshot.exists()) {
+                // Category is already added - Error Message
+                $("#result").attr("class", "alert alert-danger");
+                $("#result").html("Category alredy exists");
+                resetForm();
+
+            } else {    // Add the category
+                /* Upload the selected thumbnail to firebase storage */
+                var name = thumbnail["name"];
+                var ext = name.substring(name.lastIndexOf("."), name.length);
+                
+                // Create a unique name for each uploaded thumbnail
+                var thumbname = new Date().getTime();
+
+                // Create storage Reference
+                var storageRef = firebase.storage().ref(catname + "/" + thumbname + ext);
+                
+                // Put file in storage ref
+                var uploadTask = storageRef.put(thumbnail);
+
+                // Track upload progress
+                uploadTask.on("state_changed", 
+                    function progress(snapshot) {       //  Display progress
+                        var percentage = (snapshot.bytesTransferred / snapshot.totalBytes) * 100; 
+                        $("#upload-progress").html(Math.round(percentage) + "%");
+                        $("#upload-progress").attr("style", "width:" + percentage + "%");
+                    },
+                    function error(err) {               //  Handle Errors
+
+                    },
+                    function complete() {               //  Called when task is completed
+                        // Add data in firebase storage
+                        var thumbnailUrl = uploadTask.snapshot.downloadURL;
+                        
+                        var cat = {
+                            "thumbnail": thumbnailUrl, 
+                            "desc": desc
+                        };
+
+                        database.set(cat, function(err) {
+                            if(err) {
+                                $("#result").attr("class", "alert alert-danger");
+                                $("#result").html(err.message);
+                            } else {
+                                $("#result").attr("class", "alert alert-success");
+                                $("#result").html("Category added");
+                            }
+                            resetForm();
+                        });
+                    }
+                );
+            }
+        });
+    });
+
+    // Reset the form
+    function resetForm() {
+        $("#category-form")[0].reset();
+
+        // Hide the img tag
+        $("#selected-thumbnail").fadeOut();
+        $("#upload-progress").html("Completed");
+    }
+
+    // Display categories in the table
+    var dbCategories = firebase.database().ref("categories");   //  Refer to the categories node in DB
+    dbCategories.on("value", function(categories) {               // Function is executed if a value in categories is changed
+        // Check if there are any categories
+        if(categories.exists()) {
+            var categoriesHtml = "";
+            categories.forEach(function(category) {
+                categoriesHtml += "<tr>";
+
+                    //  Category name
+                    categoriesHtml += "<td class='align-middle'>";       
+                        categoriesHtml += category.key;
+                    categoriesHtml += "</td>";      
+                    
+                    //  Category Description
+                    categoriesHtml += "<td class='align-middle'>";       
+                        categoriesHtml += category.val().desc;
+                    categoriesHtml += "</td>";
+
+                    //  Category Thumbnail
+                    categoriesHtml += "<td class='align-middle'><img width='250' height='150' src='";       
+                        categoriesHtml += category.val().thumbnail;
+                    categoriesHtml += "'></td>";
+
+                categoriesHtml += "</tr>";
+
+                $("#categories").html(categoriesHtml);
+            });
+
+        }
+    });
+
+</script>

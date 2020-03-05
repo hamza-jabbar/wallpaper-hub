@@ -1,0 +1,8 @@
+html, body {
+    height: 100;
+}
+
+#login-card {
+    width: 450px;
+    margin: 150px auto;
+}

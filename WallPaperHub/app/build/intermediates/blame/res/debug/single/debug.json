@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_logo_wallpaper_hub.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_logo_wallpaper_hub.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_fragment_settings_logged_in.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/fragment_settings_logged_in.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_favourite_active.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_favourite_active.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_bg_splash.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/bg_splash.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_activity_wallpapers.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/activity_wallpapers.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_favourite.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_favourite.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_favourite_checkbox_selector.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/favourite_checkbox_selector.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_wallpaper_item.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/wallpaper_item.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_account_home.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable-mdpi/ic_account_home.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_account_home.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable-hdpi/ic_account_home.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_logo_wallpaper_hub.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_logo_wallpaper_hub.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_share.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_share.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_download.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_download.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_home.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_home.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_logo_wallpaper_hub.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/generated/res/pngs/debug/drawable-mdpi/ic_logo_wallpaper_hub.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_content_main.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_splash_screen.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/splash_screen.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_activity_home.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/color_bottom_nav_item.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/color/bottom_nav_item.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_fragment_settings_default.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/fragment_settings_default.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_logo_wallpaper_hub.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/generated/res/pngs/debug/drawable-ldpi/ic_logo_wallpaper_hub.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_logo_wallpaper_hub.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/generated/res/pngs/debug/drawable-hdpi/ic_logo_wallpaper_hub.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_tease.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_tease.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_settings.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_favourite_default.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_favourite_default.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_account_home.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable-xxhdpi/ic_account_home.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_account_home.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable-xhdpi/ic_account_home.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_wallpaper_hub.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_wallpaper_hub.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_ic_logout.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/menu_nav_menu.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/menu/nav_menu.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_category_item.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/category_item.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_logo_wallpaper_hub.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_logo_wallpaper_hub.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable_placeholder_img.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/drawable/placeholder_img.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/layout_fragment_favourites.xml.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/layout/fragment_favourites.xml"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_logo_wallpaper_hub.png.flat",
+        "source": "/media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_logo_wallpaper_hub.png"
+    }
+]

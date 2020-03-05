@@ -1,0 +1,482 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:design:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8825fe51d39ee674e20eb4b812144f27/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/4afbac75eaee310971c72c6fc254a5f6/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/76ba2a407c06ba2719f2c01b340f0166/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/d5ae1ddc2ef60f18773b2d56805478b2/cardview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/5cc085b2a2e020da0720f278c1e0335d/firebase-database-15.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-database-connection:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/de1f20f01da07d948888906f3dac7b87/firebase-database-connection-15.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/94cf8fe81a235ab225bad312d04a0a95/firebase-ads-15.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/059187948bfd04ba46178d9961dec07c/firebase-core-15.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/42cee5b53e1cb1e26d41bdb6aa9f148e/play-services-flags-15.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/9aeb66e59273ea0e52c3267980abea91/play-services-auth-api-phone-15.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/895cf2959516be97b63feecfe23f3abe/play-services-auth-base-15.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/473596cd6d2c9eb637d9ec0b07af9caa/firebase-iid-interop-15.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8eef88a396cca08893b443116c11af55/play-services-tasks-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/1eb2219de807567f0db03926c32a1d77/firebase-database-collection-15.0.1/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/b9435fd82a48d83b9c0713634ef8d979/play-services-ads-15.0.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e582e05a7a4f60255ddfb40b9c9e416a/play-services-stats-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/63c9cdd53edd2eb8ce0ae99a1b2d3110/play-services-ads-identifier-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/a4688de454ec1cb4c21a2e0f686a7601/play-services-gass-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/1ffd587417a97264927d87e2e881ddb6/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hamza/.gradle/caches/transforms-2/files-2.1/40356294a32a1e28e6e771084057e826/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/ca8dffe8bf6b98d988067f235f8eceb9/circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3502aa1c9a0bcd62986bc1f72e02459f/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/d09c12f2d3e9a900178f1317d7662a04/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/6f4561f7db0f30de46cf6d6ae2f940f8/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cdf31b699725103ba868926bde257f1/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/6a75d7b5f285398be19af9bc288494e4/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/c6f514e389bf6d676772ca02b5fae02a/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8ae674ec7f66deda33be13cfdfef0a70/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e302e440bb4c26c4fc75e7b5849d9c45/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/e7e9abd6df7593b866b0ee5378b48318/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/d7be833e2d4e78bb0d0c76795b076303/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/1c6772175f0a63b77a6e8775e1b22f06/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/933b0a342d52d7b6a1440bb507ec76bb/play-services-measurement-base-15.0.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/741f61692f4a6639114dd32898c33692/play-services-ads-base-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/8179255247618d0f9f56473fddae3b12/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:5:22-78
+application
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:7:5-25:19
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/94cf8fe81a235ab225bad312d04a0a95/firebase-ads-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/94cf8fe81a235ab225bad312d04a0a95/firebase-ads-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/059187948bfd04ba46178d9961dec07c/firebase-core-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/059187948bfd04ba46178d9961dec07c/firebase-core-15.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/473596cd6d2c9eb637d9ec0b07af9caa/firebase-iid-interop-15.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/473596cd6d2c9eb637d9ec0b07af9caa/firebase-iid-interop-15.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8eef88a396cca08893b443116c11af55/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8eef88a396cca08893b443116c11af55/play-services-tasks-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e582e05a7a4f60255ddfb40b9c9e416a/play-services-stats-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e582e05a7a4f60255ddfb40b9c9e416a/play-services-stats-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/63c9cdd53edd2eb8ce0ae99a1b2d3110/play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/63c9cdd53edd2eb8ce0ae99a1b2d3110/play-services-ads-identifier-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/a4688de454ec1cb4c21a2e0f686a7601/play-services-gass-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/a4688de454ec1cb4c21a2e0f686a7601/play-services-gass-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hamza/.gradle/caches/transforms-2/files-2.1/40356294a32a1e28e6e771084057e826/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hamza/.gradle/caches/transforms-2/files-2.1/40356294a32a1e28e6e771084057e826/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/ca8dffe8bf6b98d988067f235f8eceb9/circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/ca8dffe8bf6b98d988067f235f8eceb9/circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/933b0a342d52d7b6a1440bb507ec76bb/play-services-measurement-base-15.0.2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/933b0a342d52d7b6a1440bb507ec76bb/play-services-measurement-base-15.0.2/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/741f61692f4a6639114dd32898c33692/play-services-ads-base-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/741f61692f4a6639114dd32898c33692/play-services-ads-base-15.0.1/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:11:9-55
+	android:icon
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:9:9-50
+	android:allowBackup
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.ahzam.example.wallpaperhub.activities.MainActivity
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:theme
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:15:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.ahzam.example.wallpaperhub.activities.HomeActivity
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:23:9-61
+	android:name
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:23:19-58
+activity#com.ahzam.example.wallpaperhub.activities.WallpapersActivity
+ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:24:9-76
+	android:name
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml:24:19-64
+uses-sdk
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8825fe51d39ee674e20eb4b812144f27/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8825fe51d39ee674e20eb4b812144f27/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/4afbac75eaee310971c72c6fc254a5f6/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/4afbac75eaee310971c72c6fc254a5f6/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/76ba2a407c06ba2719f2c01b340f0166/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/76ba2a407c06ba2719f2c01b340f0166/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/d5ae1ddc2ef60f18773b2d56805478b2/cardview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/d5ae1ddc2ef60f18773b2d56805478b2/cardview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/5cc085b2a2e020da0720f278c1e0335d/firebase-database-15.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/5cc085b2a2e020da0720f278c1e0335d/firebase-database-15.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-connection:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/de1f20f01da07d948888906f3dac7b87/firebase-database-connection-15.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/de1f20f01da07d948888906f3dac7b87/firebase-database-connection-15.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/94cf8fe81a235ab225bad312d04a0a95/firebase-ads-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/94cf8fe81a235ab225bad312d04a0a95/firebase-ads-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/059187948bfd04ba46178d9961dec07c/firebase-core-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/059187948bfd04ba46178d9961dec07c/firebase-core-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/42cee5b53e1cb1e26d41bdb6aa9f148e/play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/42cee5b53e1cb1e26d41bdb6aa9f148e/play-services-flags-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/9aeb66e59273ea0e52c3267980abea91/play-services-auth-api-phone-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/9aeb66e59273ea0e52c3267980abea91/play-services-auth-api-phone-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/895cf2959516be97b63feecfe23f3abe/play-services-auth-base-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/895cf2959516be97b63feecfe23f3abe/play-services-auth-base-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/473596cd6d2c9eb637d9ec0b07af9caa/firebase-iid-interop-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/473596cd6d2c9eb637d9ec0b07af9caa/firebase-iid-interop-15.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8eef88a396cca08893b443116c11af55/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8eef88a396cca08893b443116c11af55/play-services-tasks-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/1eb2219de807567f0db03926c32a1d77/firebase-database-collection-15.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/1eb2219de807567f0db03926c32a1d77/firebase-database-collection-15.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/b9435fd82a48d83b9c0713634ef8d979/play-services-ads-15.0.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/b9435fd82a48d83b9c0713634ef8d979/play-services-ads-15.0.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e582e05a7a4f60255ddfb40b9c9e416a/play-services-stats-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e582e05a7a4f60255ddfb40b9c9e416a/play-services-stats-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/63c9cdd53edd2eb8ce0ae99a1b2d3110/play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/63c9cdd53edd2eb8ce0ae99a1b2d3110/play-services-ads-identifier-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/a4688de454ec1cb4c21a2e0f686a7601/play-services-gass-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/a4688de454ec1cb4c21a2e0f686a7601/play-services-gass-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/1ffd587417a97264927d87e2e881ddb6/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/1ffd587417a97264927d87e2e881ddb6/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hamza/.gradle/caches/transforms-2/files-2.1/40356294a32a1e28e6e771084057e826/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/hamza/.gradle/caches/transforms-2/files-2.1/40356294a32a1e28e6e771084057e826/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/ca8dffe8bf6b98d988067f235f8eceb9/circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/ca8dffe8bf6b98d988067f235f8eceb9/circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3502aa1c9a0bcd62986bc1f72e02459f/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3502aa1c9a0bcd62986bc1f72e02459f/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/d09c12f2d3e9a900178f1317d7662a04/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/d09c12f2d3e9a900178f1317d7662a04/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/6f4561f7db0f30de46cf6d6ae2f940f8/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/6f4561f7db0f30de46cf6d6ae2f940f8/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cdf31b699725103ba868926bde257f1/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cdf31b699725103ba868926bde257f1/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/6a75d7b5f285398be19af9bc288494e4/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/6a75d7b5f285398be19af9bc288494e4/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/c6f514e389bf6d676772ca02b5fae02a/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/c6f514e389bf6d676772ca02b5fae02a/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8ae674ec7f66deda33be13cfdfef0a70/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8ae674ec7f66deda33be13cfdfef0a70/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e302e440bb4c26c4fc75e7b5849d9c45/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/e302e440bb4c26c4fc75e7b5849d9c45/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/e7e9abd6df7593b866b0ee5378b48318/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/e7e9abd6df7593b866b0ee5378b48318/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/d7be833e2d4e78bb0d0c76795b076303/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/d7be833e2d4e78bb0d0c76795b076303/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/1c6772175f0a63b77a6e8775e1b22f06/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/1c6772175f0a63b77a6e8775e1b22f06/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/933b0a342d52d7b6a1440bb507ec76bb/play-services-measurement-base-15.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/933b0a342d52d7b6a1440bb507ec76bb/play-services-measurement-base-15.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/741f61692f4a6639114dd32898c33692/play-services-ads-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/741f61692f4a6639114dd32898c33692/play-services-ads-base-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/8179255247618d0f9f56473fddae3b12/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/8179255247618d0f9f56473fddae3b12/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/b9435fd82a48d83b9c0713634ef8d979/play-services-ads-15.0.1/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+		ADDED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+		INJECTED from /media/hamza/MINE_HD/Android_Stuff/AndroidProjects/WallPaperApp/WallPaperHub/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/7d24b0d2daa3885798709d86d903cedb/firebase-auth-15.0.0/AndroidManifest.xml:24:13-85
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/688165cb0506dc813a83076da92e8874/play-services-auth-15.0.0/AndroidManifest.xml:34:13-89
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:25:22-65
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:34:9-42:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/3d23528100f8101a5ccebd789bc63d25/firebase-analytics-impl-15.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /home/hamza/.gradle/caches/transforms-2/files-2.1/2ccc23265e8498316bd63252d8a06421/firebase-analytics-15.0.2/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:29:9-63
+permission#com.ahzam.example.wallpaperhub.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:32:22-76
+uses-permission#com.ahzam.example.wallpaperhub.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:32:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:35:18-89
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.ahzam.example.wallpaperhub
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:48:27-58
+category#com.ahzam.example.wallpaperhub
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/40c5364a117595e8e409a6d621fbd938/firebase-iid-15.1.0/AndroidManifest.xml:60:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/0e0c7b9fd3c3a371645edc47d5331375/firebase-common-15.0.1/AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/66cb90bb85f66b30e25b70a80fddf120/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/3cb833cc0272974691fe6bec76c89699/play-services-ads-lite-15.0.1/AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /home/hamza/.gradle/caches/transforms-2/files-2.1/8f0b1a239c62474e5c90b9fab424c4c5/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:customtabs:26.1.0] /home/hamza/.gradle/caches/transforms-2/files-2.1/966f3abda2ea80ab82c903ee147c8491/customtabs-26.1.0/AndroidManifest.xml:24:13-51

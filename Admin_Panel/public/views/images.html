@@ -1,0 +1,164 @@
+<h2>Images</h2>
+<hr>
+<div class="row">
+    <div class="col-lg-3">
+        <h4 class="mb-4">Add a Wallpaper</h4>
+        
+        <form id="image-form">
+
+            <!-- Dropdown Menu -->
+            <div class="form-group">
+                <label for="category">Select Category</label>
+                <select id="category" class="form-control"></select>
+            </div>
+            
+            <!-- Title -->
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="title">
+                <div class="invalid-feedback">
+                    Please Enter Title
+                </div>
+            </div>
+
+            <!-- Description -->
+            <div class="form-group">
+                <label for="desc">Description</label>
+                <input type="text" class="form-control" id="desc" />
+                <div class="invalid-feedback">
+                    Please enter description 
+                </div>                    
+            </div>
+
+            <!-- Image -->
+            <div class="form-group">
+                <label for="wallpaper">Wallpaper</label>
+                <input type="file" class="form-control" id="wallpaper">
+                <div class="invalid-feedback">
+                    <!-- Displayed only if there is a validation error -->
+                    Please choose a valid image
+                </div>
+            </div>
+
+            <!-- Progress bar -> when uploading thumbnail -->
+            <div class="form-group">
+                <div class="progress">
+                    <div class="progress-bar" id="progress" style="width: 0%;">0%</div>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <button type="button" id="btn-save" class="btn btn-primary">Save Wallpaper</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Diplaying Image -->
+    <div class="col-lg-9">
+        <img src="#" alt="Wallpaper" id="img-wallpaper" width="800" height="400">
+    </div>
+</div>
+
+<script>
+    function previewWallpaper(thumbnail){
+        // Check if thumbnail has a file and is available
+        if(thumbnail.files && thumbnail.files[0]){
+            var reader = new FileReader(); 
+            reader.onload = function(e){
+                //  To preview the image -> set th src attribute to the selected thumbnail image
+                $("#img-wallpaper").attr('src', e.target.result);
+            }
+            // Read data as a URL
+            reader.readAsDataURL(thumbnail.files[0]);
+        }
+    }
+    $("#wallpaper").change(function(){
+        previewWallpaper(this);
+    });
+    var dbCategories = firebase.database().ref("categories");
+    dbCategories.once("value").then(function(categories){
+        categories.forEach(function(category){
+            // Show the list of categories in dropdown menu from DB
+            $("#category").append("<option value='"+category.key+"'>"+category.key+"</option>");     
+        });
+    });
+    var validImageTypes = ["image/gif", "image/jpeg", "image/png"];
+    $("#btn-save").click(function(){
+        $("#title").removeClass("is-invalid");
+        $("#desc").removeClass("is-invalid");
+        $("#wallpaper").removeClass("is-invalid");
+        var title = $("#title").val();
+        var desc = $("#desc").val(); 
+        var wallpaper = $("#wallpaper").prop("files")[0];
+
+        // Validate Title
+        if(!title){
+            $("#title").addClass("is-invalid");
+            return; 
+        }
+
+        // Validate Descripton
+        if(!desc){
+            $("#desc").addClass("is-invalid");
+            return; 
+        }
+
+        // Check is the file is an image type [jpg, jpeg, png, tiff, gif]
+        if(!wallpaper){
+            $("#wallpaper").addClass("is-invalid");
+            return; 
+        }
+
+        // Check file type validation
+        if($.inArray(wallpaper["type"], validImageTypes)<0){
+            $("#wallpaper").addClass("is-invalid");
+            return; 
+        }
+
+        var category = $("#category").val();
+
+        var name = wallpaper["name"];
+        
+        var ext = name.substring(name.lastIndexOf("."), name.length);
+        
+        var imagename = new Date().getTime(); 
+        
+        var storageRef = firebase.storage().ref(category + "/" + imagename + ext);
+        
+        var uploadTask = storageRef.put(wallpaper);
+        
+        uploadTask.on("state_changed", 
+            function progress(snapshot){
+                var percentage = (snapshot.bytesTransferred / snapshot.totalBytes) * 100; 
+                $("#progress").html(Math.round(percentage)+"%");
+                $("#progress").attr("style", "width: "+percentage + "%");
+            }, 
+            function error(err){
+            },
+            function complete(){
+                var imageUrl = uploadTask.snapshot.downloadURL; 
+                var database = firebase.database().ref("images").child(category);   //  Key node - Image selected from category
+                var imageid = database.push().key;
+                
+                var image = {
+                    "url": imageUrl, 
+                    "title": title, 
+                    "desc": desc 
+                };
+                database.child(imageid).set(image, function(err){
+                    alert("Image saved..");
+                    resetForm();
+                });
+            }
+        );
+    });
+    
+    function resetForm(){
+        $("#image-form")[0].reset();
+
+        // Hide Image Tag 
+        $("#img-wallpaper").attr("src", "");;
+        $("#progress").html("Completed");
+    }
+</script>
